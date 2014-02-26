@@ -31,6 +31,7 @@ Simply visit wp-admin on your iPad, click on the Jetpack menu, and choose the 'S
 == Changelog ==
 = 1.1.1 =
 * FIX: Fixes a bug where ob_end_clean was being run when no buffers existed, causing the JSON to be blank.
+* PROPS: Gregory Marchese (http://gregorytm.com) for helping me identify and test the FIX.
 
 = 1.1 =
 * NEW: You can now copy and paste the URL for stats, or click a button to add to Status Board. Should help in cases where wp_redirect isn't working properly.
